@@ -22,6 +22,9 @@ h1, h2, h3, h4, h5, h6, span {
     text-align: center;
     line-height: 1.25;
 }
+.strong {
+    font-weight: 700;
+}
 
 /*NAVIGATION*/
 nav {
@@ -58,15 +61,25 @@ nav {
 }
 /* Header */
 
-.header {
+
+.header__para {
+    width: 40%;
+    display: flex;
+   
+}
+.customers--wrapper {
+    width: 100%;
+}
+.header__customers--img {
     width: 60%;
+}
+.header__img--wrapper {
+    overflow: hidden;
 }
 .header__img {
     width: 60%;
 }
-.header__para {
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-}
+
+
+
 
