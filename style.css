@@ -13,6 +13,8 @@ li {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
 }
 .text--purple {
     color: #6415ff
@@ -63,21 +65,22 @@ nav {
 
 
 .header__para {
-    width: 40%;
+    width: 100%;
     display: flex;
-   
+    align-items: center;
 }
 .customers--wrapper {
-    width: 100%;
+    width: 40%;
 }
 .header__customers--img {
-    width: 60%;
+    width: 100%;
 }
 .header__img--wrapper {
     overflow: hidden;
+    width: 60%;
 }
 .header__img {
-    width: 60%;
+    width: 100%;
 }
 
 
