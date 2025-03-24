@@ -12,165 +12,224 @@
     <link rel="stylesheet" href="style.css" />
     <title>Treact</title>
   </head>
-
-  <nav>
-    <div class="logo">
-      <figure class="logo__fig">
-        <img
-        src="./assets-20250313T014707Z-001/TwBG-logo.2c489fc453a1783cbadacf914efa3df6.svg"
-        class ="logo__fig alt="logo"/>
-      </figure>
-      <h1>Treact</h1>
-    </div>
-    <ul class="nav__links">
-      <li><a href="#about" class="links">About</a></li>
-      <li><a href="#blog" class="links">Blog</a></li>
-      <li><a href="#pricing" class="links">Pricing</a></li>
-      <li><a href="#contact us" class="links">Contact Us</a></li>
-      <li><a href="#login" class="links">Login</a></li>
-      <li><a href="#sign up" class="sign-up links">Sign up</a></li>
-    </ul>
-  </nav>
-
   <body>
-    <header>
-      <div class="row">
-        <!-- <div class="header__para" This is div 1> -->
-          <div class="para">
-            <h1>
-              Beautiful React Templates
-              <span class="text--purple">for you.</span>
-            </h1>
+    <section id="landing">
+      <nav>
+        <div class="logo">
+          <figure class="logo__fig">
+            <img
+            src="./assets-20250313T014707Z-001/TwBG-logo.2c489fc453a1783cbadacf914efa3df6.svg"
+            class ="logo__fig alt="logo"/>
+          </figure>
+          <h1 class ="logo__title">Treact</h1>
+        </div>
+        <ul class="nav__links">
+          <li><a href="#about" class="links">About</a></li>
+          <li><a href="#blog" class="links">Blog</a></li>
+          <li><a href="#pricing" class="links">Pricing</a></li>
+          <li><a href="#contact us" class="links">Contact Us</a></li>
+          <li><a href="#login" class="links">Login</a></li>
+          <li>
+            <button>
+              <a href="#sign up" class="sign-up links">Sign up</a>
+            </button>
+          </li>
+        </ul>
+      </nav>
 
-            <p>
-              Our templates are easy to setup, understand and customize. Fully
-              modular components with a variety of pages and components.
-            </p>
-            <form>
-              <input type="email" placeholder="Your Email Address" />
-              <button class="form-button button">Get Started</button>
-            </form>
+      <header>
+        <div class="row">
+          <div class="header">
+            <div class="header__content">
+              <h1>
+                Beautiful React Templates
+                <span class="text--purple">for you.</span>
+              </h1>
 
-            <div class="header__customers">
-              <p class ="strong"> OUR TRUSTED CUSTOMERS</p>
-              <figure class="header__customers--wrapper">
+              <p class="header__content--para">
+                Our templates are easy to setup, understand and customize. Fully
+                modular components with a variety of pages and components.
+              </p>
+              <div class="header__form">
+                <input
+                  type="email"
+                  class="header__input"
+                  placeholder="Your Email Address"
+                />
+                <button class="form-button">Get Started</button>
+              </div>
+
+              <div class="header__customers">
+                <p class="customer--text">OUR TRUSTED CUSTOMERS</p>
+                <figure class="header__customers--wrapper">
+                  <img
+                    src="./assets-20250313T014707Z-001/customer-logo.png"
+                    class="header__customers--img"
+                    alt="customers"
+                  />
+                </figure>
+              </div>
+            </div>
+            <!-- <div class="header__img--container"> -->
+              <figure class="header__img--wrapper">
                 <img
-                  src="./assets-20250313T014707Z-001/customer-logo.png"
-                  class="header__customers--img"
-                  alt="customers"
+                  src="./assets-20250313T014707Z-001/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg"
+                  class="header__img"
+                  alt="working"
                 />
               </figure>
-            </div>
-          </div>
-          <!-- <div This is div 2> -->
-            <figure class="header__img--wrapper">
-              <img
-                src="./assets-20250313T014707Z-001/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg"
-                class="header__img"
-                alt="working"
-              />
-            </figure>
+            <!-- </div> -->
           </div>
         </div>
-      </div>
-    </header>
+      </header>
+    </section>
 
-    <section>
-      <div class="row">
-        <h4>FEATURES</h4>
-        <h1>We have Amazing <span class="text--purple">Service</span></h1>
-        <p>
+    <main>
+    <section id ="features">
+      <div class="container">
+      <div class="row__narrow">
+        <h4 class ="features__title"><span class="text--purple">FEATURES</span></h4>
+        <h2 class="section__title--features">We have Amazing <span class="text--purple">Service</span></h2>
+        <p class="features__description">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis
           odio iusto a voluptate voluptas dignissimos numquam velit vitae
           accusamus. Non.
         </p>
         <div class="features">
-          <div class="features__item">
-            <figure class="features__figure">
+          <div class="features__row">
+            <figure class="features__icon--wrapper">
               <img
                 src="./assets-20250313T014707Z-001/shield.svg"
                 class="features__icon"
                 alt="shield"
               />
             </figure>
-            <h2>Secure</h2>
-            <p>
+            <div class ="feature__text">
+            <h2 class ="feature__item">Secure</h2>
+            <p class ="feature__para">
               We strictly only deal with vendors that provide top notch security
             </p>
           </div>
-          <div class="features__item">
-            <figure class="features__figure">
+          </div>
+          <div class="features__row">
+            <figure class="features__icon--wrapper">
               <img
                 src="./assets-20250313T014707Z-001/shield.svg"
                 class="features__icon"
                 alt="shield"
               />
             </figure>
-            <h2>Secure</h2>
-            <p>
+            <div class ="feature__text">
+            <h2 class ="feature__item">24/7 Support</h2>
+            <p class ="feature__para">
               We strictly only deal with vendors that provide top notch security
             </p>
           </div>
-          <div class="features__item">
-            <figure class="features__figure">
+          </div>
+          <div class="features__row">
+            <figure class="features__icon--wrapper">
               <img
                 src="./assets-20250313T014707Z-001/shield.svg"
                 class="features__icon"
                 alt="shield"
               />
             </figure>
-            <h2>Secure</h2>
-            <p>
+            <div class ="feature__text">
+            <h2 class ="feature__item">Customizable</h2>
+            <p class ="feature__para">
               We strictly only deal with vendors that provide top notch security
             </p>
           </div>
-          <div class="features__item">
-            <figure class="features__figure">
+          </div>
+          <div class="features__row">
+            <figure class="features__icon--wrapper">
               <img
                 src="./assets-20250313T014707Z-001/shield.svg"
                 class="features__icon"
                 alt="shield"
               />
             </figure>
-            <h2>Secure</h2>
-            <p>
+            <div class ="feature__text">
+            <h2 class ="feature__item">Reliable</h2>
+            <p class ="feature__para">
               We strictly only deal with vendors that provide top notch security
             </p>
           </div>
-          <div class="features__item">
-            <figure class="features__figure">
+          </div>
+          <div class="features__row">
+            <figure class="features__icon--wrapper">
               <img
                 src="./assets-20250313T014707Z-001/shield.svg"
                 class="features__icon"
                 alt="shield"
               />
             </figure>
-            <h2>Secure</h2>
-            <p>
+            <div class ="feature__text">
+            <h2 class ="feature__item">Fast</h2>
+            <p class ="feature__para">
               We strictly only deal with vendors that provide top notch security
             </p>
           </div>
-          <div class="features__item">
-            <figure class="features__figure">
+          </div>
+          <div class="features__row">
+            <figure class="features__icon--wrapper">
               <img
                 src="./assets-20250313T014707Z-001/shield.svg"
                 class="features__icon"
                 alt="shield"
               />
             </figure>
-            <h2>Secure</h2>
-            <p>
+            <div class ="feature__text">
+            <h2 class ="feature__item">Easy</h2>
+            <p class ="feature__para">
               We strictly only deal with vendors that provide top notch security
             </p>
+          </div>
+          </div>
+      </div>
+    </div>
+    </section>
+
+    <section id ="quality">
+      <div class="container">
+        <div class="row">
+          <div class="quality__description">
+      <h4 class="quality__title text--purple">QUALITY WORK</h4>
+      <h2 class="section__title">Designed & Developed by <span class="text--purple">Professionals.</span></h2>
+        <p class="quality__para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+          Tempora est accusamus, minima nisi alias voluptas adipisci, odit dicta, 
+          eaque expedita sed eius. Adipisci quod inventore, corporis, sunt animi 
+          fuga illum non odio rerum suscipit explicabo vitae aliquam ipsam atque. Enim?</p>
+          <button>Learn More</button>
+        </div>
+        <figure class="quality__img--wrapper">
+          <img src="./assets-20250313T014707Z-001/hero-screenshot-1.40a097b525c2f8c9808e.png" class ="quality__img" alt="quality"/>
+        </figure>
+    </div>
+    </div>  
+    </section>
+
+    <section id="steps">
+      <div class="container">
+        <div class="row">
+          <figure class="steps__img--wrapper">
+            <img src="./assets-20250313T014707Z-001/hero-screenshot-2.241aac1fbc66db29d873.png" class="steps__img" alt="steps"/>
+            </figure>
+          <div class="steps__description">
+            <h4 class ="steps__title text text--purple">STEPS</h4>
+            <h2 class="section__title"> Easy to <span class ="text--purple"> Get Started.</span></h2>
+              <div class ="steps__list">
+              <div class="steps__number">01</div>
+              <div class="steps__item">Register</div>
+              <div class="steps__description">Create an account with us using Google or Facebook.</div>
           </div>
         </div>
       </div>
     </section>
-
-    <section><h4>QUALITY WORK</h4></section>
-    <section><h4>STEPS</h4></section>
     <section><h4>VALUES</h4></section>
     <section><h4>PRICING</h4></section>
     <section><h4>TESTIMONIALS</h4></section>
+  </main>
+  <footer></footer>
   </body>
 </html>
