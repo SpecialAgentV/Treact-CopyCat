@@ -186,11 +186,14 @@ nav {
     align-items: center;
     
 }
-.features__title, .section__title--features {
+.features__title {
     letter-spacing: 2px;
     margin: 24px 0;
     text-align: center;
     
+}
+#features .section__title {
+    text-align: center;
 }
 #features .section__para {
     text-align: center;
