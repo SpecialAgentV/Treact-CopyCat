@@ -22,6 +22,10 @@ li {
     max-width: 1024px;
     margin: 0 auto;
 }
+.nav__row {
+    display: flex;
+    justify-content: space-between;
+}
 .text--purple {
     color: #6415ff
 }
@@ -57,12 +61,19 @@ button:hover {
     font-size: 42px;
     font-weight: 900;
 }
+.section__para {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.65;
+    color: #7c8ba1
+}
 
 /*NAVIGATION*/
 nav {
     display: flex;
     justify-content: space-between;
     margin: 16px 16px;
+    padding-top: 32px;
 }
 .logo {
     display: flex;
@@ -181,9 +192,9 @@ nav {
     text-align: center;
     
 }
-.features__description {
+#features .section__para {
     text-align: center;
-    
+    max-width: 600px;
 }
 .features {
     display: flex;
