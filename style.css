@@ -523,11 +523,11 @@ instead of stretching all the way across */
     margin-left: 32px;
 }
 .test__buttons {
-    /* display: flex; */
-    /* align-items: center; */
+    display: flex;
+    align-items: center;
 }
 .test__bottom {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
   
