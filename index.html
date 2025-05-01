@@ -21,7 +21,7 @@
           <figure class="logo__fig">
             <img
             src="./assets-20250313T014707Z-001/TwBG-logo.2c489fc453a1783cbadacf914efa3df6.svg"
-            class ="logo__fig alt="logo"/>
+            class ="logo__fig" alt="logo">
           </figure>
           <h1 class ="logo__title">Treact</h1>
         </div>
@@ -38,9 +38,27 @@
           </li>
         </ul>
       </div>
+      <div class="button__menu" onclick="openMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
       </nav>
 
+      <div class="modal">
+        <button class="button__menu button__menu--close " onclick="closeMenu()">
+          <i class="fa-solid fa-xmark"></i>
+        </button>  
+        <div class="modal__links">
+          <a class="modal__link">About</a>
+          <a class="modal__link">Blog</a>
+          <a class="modal__link">Pricing</a>
+          <a class="modal__link">Contact US</a>
+          <a class="modal__link">Login</a>
+          <a class="modal__link modal__link--sign-up">Sign Up</a>
+        </div>
+      </div>
+
       <header>
+        <div class="container">
         <div class="row">
           <div class="header">
             <div class="header__content">
@@ -74,16 +92,17 @@
               </div>
             </div>
             <!-- <div class="header__img--container"> -->
-              <figure class="header__img--wrapper">
+              <!-- <figure class="header__img--wrapper"> -->
                 <img
                   src="./assets-20250313T014707Z-001/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg"
                   class="header__img"
                   alt="working"
                 />
-              </figure>
+              <!-- </figure> -->
             <!-- </div> -->
           </div>
         </div>
+      </div>
       </header>
     </section>
 
@@ -302,9 +321,9 @@
           <button class="button">Learn More</button>
          </div>
 
-          <figure class="values__img--wrapper">
+          <!-- <figure class="values__img--wrapper"> -->
             <img src="./assets-20250313T014707Z-001/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg" class ="values__img" alt="values"/>
-          </figure>
+          <!-- </figure> -->
 
         </div>
       </div>
@@ -394,16 +413,16 @@
       <div class="container">
         <div class="row">
 
-          <figure class="test__img--wrapper">
+          <!-- <figure class="test__img--wrapper"> -->
             <img class ="test__img" src="./assets-20250313T014707Z-001/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg">
-          </figure> 
+          <!-- </figure>  -->
 
          <div class="test__text">
           <div class="test__description"> 
             <h4 class="section__tag text--purple">TESTIMONIALS</h4>
             <h2 class="section__title">Our Clients <span class="text--purple">Love Us.</span></h2>
             <p class ="section__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Praesentium, perferendis!</p>
+              Praesentium, perferendis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga obcaecati error itaque? Eos voluptatem illum dolorem, officia accusamus sint modi? </p>
           </div>
 
           <div class="testimonial">
@@ -414,9 +433,9 @@
             </div>
             <div class="test__summary"> Amazing User Experience</div>
             <p class="test__para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-              Consequuntur, rerum.</p>
+              Consequuntur, rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat repellendus voluptates ex recusandae odio a dolor quaerat excepturi harum delectus.</p>
 
-            <div class="test_bottom">
+            <div class="test__bottom">
               <div class="test__profile">
                 <figure class="test__face--wrapper">
                   <img src="./assets-20250313T014707Z-001/woman-smiling.avif" alt="" class="test__face">
@@ -429,6 +448,7 @@
               </div>
               <div class="test__buttons">
                 <button class="test__button"> <i class="fa-solid fa-arrow-left"></i></button>
+                <div class="divider"></div>
                 <button class="test__button"> <i class="fa-solid fa-arrow-right"></i></button>
               </div>
             </div>
@@ -439,7 +459,84 @@
       </div>
     </section>
 
+    <section class="start">
+      <div class="container">
+        <div class="row">
+          <div class="start__container">
+            <div class="start__row">
+
+              <div class="start__title">Developers all over 
+              the world are happily using Treact. 
+              </div>
+             <div class="start__buttons">
+              <button class="get-started">Get Started</button>
+              <button class="contact-us">Contact Us</button>
+             </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
-  <footer></footer>
+
+  <footer>
+    <div class="row footer__row">
+      <div class="footer__columns">
+
+        <div class="footer__column">
+          <div class="column__title"> Main</div>
+            <a class="footer__column--link">Blog</a>
+            <a class="footer__column--link">FAQs</a>
+            <a class="footer__column--link">Support</a>
+            <a class="footer__column--link">About Us</a>
+        </div>
+        <div class="footer__column">
+          <div class="column__title"> Main</div>
+            <a class="footer__column--link">Blog</a>
+            <a class="footer__column--link">FAQs</a>
+            <a class="footer__column--link">Support</a>
+            <a class="footer__column--link">About Us</a>
+        </div>
+        <div class="footer__column">
+          <div class="column__title"> Main</div>
+            <a class="footer__column--link">Blog</a>
+            <a class="footer__column--link">FAQs</a>
+            <a class="footer__column--link">Support</a>
+            <a class="footer__column--link">About Us</a>
+        </div>
+        <div class="footer__column">
+          <div class="column__title"> Main</div>
+            <a class="footer__column--link">Blog</a>
+            <a class="footer__column--link">FAQs</a>
+            <a class="footer__column--link">Support</a>
+            <a class="footer__column--link">About Us</a>
+        </div>
+        <div class="footer__column">
+          <div class="column__title"> Main</div>
+            <a href="" class="footer__column--link">Blog</a>
+            <a class="footer__column--link">FAQs</a>
+            <a class="footer__column--link">Terms of Service</a>
+            <a class="footer__column--link">Disclaimer</a>
+        </div>
+        
+      </div>
+      <div class="footer__divider"></div>
+
+      <div class="footer__bottom">
+      <div class="footer__logo">
+        <img class = "footer__logo--img" src = "assets-20250313T014707Z-001/TnoBGlogo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg" >
+        <h5 class="footer__logo--text"> Treact Inc.</h5>
+      </div>
+      <p class = "copyright"> © 2018 Treact Inc. All Rights Reserved.</p>
+      <div class="footer__socials--wrapper">
+        <img class = "social" src ="assets-20250313T014707Z-001/fast-icon.dbb971a73d4805d2fc3bcdacdb55beba.svg">
+        <img class = "social" src ="assets-20250313T014707Z-001/fast-icon.dbb971a73d4805d2fc3bcdacdb55beba.svg">
+        <img class = "social" src ="assets-20250313T014707Z-001/fast-icon.dbb971a73d4805d2fc3bcdacdb55beba.svg">
+      </div>
+      </div>
+    </div>
+  </footer>
   </body>
 </html>
