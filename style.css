@@ -690,6 +690,7 @@ footer {
     display: flex;
     flex-direction: column;
     color: white;
+    align-items: flex-start;
 }
 .column__title {
     padding: 0 0 12px 0;
@@ -700,9 +701,8 @@ footer {
     font-size: 14px;
     padding-top: 12px;
     font-weight: 500;
-}
-.footer__column--link:hover:after {
-    opacity: 1;
+    position: relative;
+    display: inline;
 }
 .footer__column--link:after { 
     content: "";
@@ -714,6 +714,9 @@ footer {
     background: #fff;
     transition: all 300ms;
     opacity: 0;
+}
+.footer__column--link:hover:after {
+    opacity: 1;
 }
 .footer__divider {
     width: 100%;
@@ -811,6 +814,7 @@ footer {
         background-color: #fff;
         position: fixed;
         display: block;
+        transition: all 300ms ease;
     }
     .menu--open .modal {
         visibility: visible;
