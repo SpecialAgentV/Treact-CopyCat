@@ -11,6 +11,7 @@
     />
     <script src="https://kit.fontawesome.com/4d8240611c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
     <title>Treact</title>
   </head>
   <body>
@@ -38,20 +39,20 @@
           </li>
         </ul>
       </div>
-      <div class="button__menu" onclick="openMenu()">
+      <div class="button__menu" onclick="openModal()">
         <i class="fa-solid fa-bars"></i>
       </div>
       </nav>
 
       <div class="modal">
-        <button class="button__menu button__menu--close " onclick="closeMenu()">
+        <button class="button__menu button__menu--close " onclick="closeModal()">
           <i class="fa-solid fa-xmark"></i>
         </button>  
         <div class="modal__links">
           <a class="modal__link">About</a>
           <a class="modal__link">Blog</a>
           <a class="modal__link">Pricing</a>
-          <a class="modal__link">Contact US</a>
+          <a class="modal__link">Contact Us</a>
           <a class="modal__link">Login</a>
           <a class="modal__link modal__link--sign-up">Sign Up</a>
         </div>
@@ -91,7 +92,7 @@
                 </figure>
               </div>
             </div>
-            <!-- <div class="header__img--container"> -->
+            <div class="header__img--wrapper">
               <!-- <figure class="header__img--wrapper"> -->
                 <img
                   src="./assets-20250313T014707Z-001/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg"
@@ -99,7 +100,7 @@
                   alt="working"
                 />
               <!-- </figure> -->
-            <!-- </div> -->
+            </div>
           </div>
         </div>
       </div>
@@ -342,6 +343,7 @@
           <div class="pricing">
 
             <div class="plan">
+              <div class="plan__stripe"></div>
               <div class="plan__top">
                 <div class="plan__title">Personal</div>
                 <div class="plan__amount">$17.99</div>
@@ -384,6 +386,7 @@
           
 
           <div class="plan">  
+            <div class="plan__stripe"></div>
             <div class="plan__top">
                 <div class="plan__title">Enterprise</div>
                 <div class="plan__amount">$57.99</div>
@@ -515,7 +518,7 @@
         </div>
         <div class="footer__column">
           <div class="column__title"> Main</div>
-            <a href="" class="footer__column--link">Blog</a>
+            <a class="footer__column--link">Blog </a>
             <a class="footer__column--link">FAQs</a>
             <a class="footer__column--link">Terms of Service</a>
             <a class="footer__column--link">Disclaimer</a>
